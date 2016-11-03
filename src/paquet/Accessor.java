@@ -45,7 +45,7 @@ public class Accessor {
 			System.out.println("Posa el teu DNI");
 			String Dni = Lector.next();
 			Client Usuari=BDVirtual.CercaClientperDNI(Dni);
-			if (Usuari==null){System.out.println("no exitsteix cap client registrat amb aquest DNI");}
+			if (Usuari==null){System.out.println("No exitsteix cap client registrat amb aquest DNI");}
 			else {
 				
 				System.out.println("Si que existeix l'usuari");
