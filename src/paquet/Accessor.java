@@ -1,7 +1,13 @@
 package paquet;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * 
+ * Classe pública que permet accedir a la consola en diferens
+ * i tenir diferent informacio així com operar.
+ *
+ */
 public class Accessor {
 			private static Scanner Lector = new Scanner(System.in);
 			BaseDeDadesV BDVirtual;
